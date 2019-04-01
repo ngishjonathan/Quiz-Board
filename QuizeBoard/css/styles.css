@@ -14,7 +14,11 @@ h2 {
 }
 body {
 background-color: wheat;
+background-image: url(/home/andrew/Documents/QuizeBoard/img/down.jpg;)
 }
 .people {
   font-size: 30px;
+}
+.pin {
+  background-color: wheat;
 }
