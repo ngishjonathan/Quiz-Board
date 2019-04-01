@@ -8,20 +8,25 @@ h2 {
   color: blue;
   font-size: 45px;
 }
+
 .mon {
   color: blue;
   font-size: 75px;
 }
+
 body {
 background-color: cyan;
 background-image: url(/home/andrew/Documents/QuizeBoard/img/down.jpg;)
 }
+
 .people {
   font-size: 30px;
 }
+
 .pin {
   background-color: wheat;
 }
+
 .jum {
   font-size: 45px;
   border-radius: 40px;
