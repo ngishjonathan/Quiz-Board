@@ -13,7 +13,7 @@ h2 {
   font-size: 75px;
 }
 body {
-background-color: wheat;
+background-color: cyan;
 background-image: url(/home/andrew/Documents/QuizeBoard/img/down.jpg;)
 }
 .people {
@@ -26,5 +26,5 @@ background-image: url(/home/andrew/Documents/QuizeBoard/img/down.jpg;)
   font-size: 45px;
   border-radius: 40px;
 }
-.js-showing { 
+.js-showing {
 }
