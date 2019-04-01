@@ -6,4 +6,15 @@ h1 {
 h2 {
   text-align: center;
   color: blue;
+  font-size: 45px;
+}
+.mon {
+  color: blue;
+  font-size: 75px;
+}
+body {
+background-color: wheat;
+}
+.people {
+  font-size: 30px;
 }
