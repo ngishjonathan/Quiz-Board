@@ -1,13 +1,23 @@
 $(document).ready(function() {
-  $("#add").submit(function(event) {
+  $("#sub").click(function(event) {
     var shortform=parseInt($("input:radio[name=Q1]:checked").val());
+    console.log(shortform);
+
     var java=parseInt($("input:radio[name=Q2]:checked").val());
-    var language=parseInt("input:radio[name=Q3]:checked").val());
-    var mwas=parseInt("input:radio[name=Q4]:checked").val());
+    console.log(java);
+
+    var language=parseInt($("input:radio[name=Q3]:checked").val());
+    console.log(language);
+
+    var mwas=parseInt($("input:radio[name=Q4]:checked").val());
+    console.log(mwas);
+
     var display=parseInt( shortform + java + language + mwas )
-    var name=$("input#firstName").val();
-    event.preventDefault();
+    console.log(display);
+
+    //var name=$("input#firstName").val();
+    //event.preventDefault();
     $("#hide").slideDown();
-    $("#results").text( firstName + "your score is: " + display + "%")
+    $("#results").html("your score is: " + display + "%");
   });
 });

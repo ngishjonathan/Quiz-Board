@@ -16,7 +16,7 @@ h2 {
 
 body {
 background-color: cyan;
-background-image: url(/home/andrew/Documents/QuizeBoard/img/down.jpg;)
+background-image: url("../img/down.jpg");
 }
 
 .people {
